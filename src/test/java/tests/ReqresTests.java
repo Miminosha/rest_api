@@ -79,7 +79,7 @@ public class ReqresTests {
     }
 
     @Test
-    void singleUserGetTest(){
+    void singleUserIdCheckingTest(){
         given()
                 .log().all()
                 .when()
